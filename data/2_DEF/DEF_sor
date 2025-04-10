@@ -1,0 +1,25 @@
+# Hg38_vs_SPECIES
+#make sure to fix paths, I would set as direct
+PATH=/usr/local/bin:~/bin:~/scripts/scripts_bin
+BLASTZ=~/bin/lastz-1.04.00
+BLASTZ_O=400
+BLASTZ_E=30
+BLASTZ_M=254
+BLASTZ_Q=~/data/000_miscFiles/scores_human_mammal.q
+
+# TARGET: Human reference
+SEQ1_DIR=~/data/0_refs/hg38.2bit
+SEQ1_LEN=~/data/0_refs/hg38.chrom.sizes
+SEQ1_CHUNK=175000000
+SEQ1_LAP=0
+SEQ1_LIMIT=18
+
+# QUERY: SPECIES #here we have sorex
+SEQ2_DIR=~/data/1_mask/mSorAra2/mSorAra2.masked.2bit
+SEQ2_LEN=~/data/1_mask/mSorAra2/mSorAra2.masked.chromsize
+SEQ2_CHUNK=50000000
+SEQ2_LIMIT=2000
+SEQ2_LAP=10000
+
+BASE=~/data/3_genome_align/mSorAra2
+TMPDIR=~/data/3_genome_align/mSorAra2/tmp

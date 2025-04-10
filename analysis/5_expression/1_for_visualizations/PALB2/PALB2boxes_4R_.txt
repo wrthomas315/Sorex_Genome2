@@ -1,0 +1,4 @@
+start_position	end_position	domain	species	mask
+1	816	NO	sorex_araneus	No
+817	1159	WD40	sorex_araneus	No
+1160	1160	NO	sorex_araneus	No

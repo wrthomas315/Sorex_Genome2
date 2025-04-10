@@ -1,0 +1,4 @@
+#
+less MEMEoutput.txt | grep "ENST00000372055"  | awk '{print $2 FS $3}' > VEGFA_rfigure_input.txt
+less MEMEoutput.txt | grep "ENST00000301724"  | awk '{print $2 FS $3}' > MLST8_rfigure_input.txt
+less MEMEoutput.txt | grep "ENST00000599029"  | awk '{print $2 FS $3}' > SPHK2_rfigure_input.txt

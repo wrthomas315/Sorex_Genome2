@@ -1,0 +1,132 @@
+/gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/quast-5.0.2/quast.py /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/mSorAra1.pri.asm.20211103.fasta.gz /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/genomes/GCA_000181395.1_ASM18139v1_genomic.fna.gz ./genomes/GCA_004027635.1_CroInd_v1_BIUU_genomic.fna.gz ./genomes/GCF_000181275.1_SorAra2.0_genomic.fna.gz ./genomes/GCA_000296755.1_EriEur2.0_genomic.fna.gz ./genomes/GCA_004363575.1_SolPar_v1_BIUU_genomic.fna.gz ./genomes/GCF_000260355.1_ConCri1.0_genomic.fna.gz ./genomes/GCA_002901085.1_ASM290108v1_genomic.fna.gz ./genomes/GCA_019455555.1_Gpyr_1.0_genomic.fna.gz ./genomes/GCF_014898055.1_MPIMG_talOcc4_genomic.fna.gz ./genomes/GCA_004024925.1_ScaAqu_v1_BIUU_genomic.fna.gz ./genomes/GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic.fna.gz ./genomes/GCF_024139225.1_mSunEtr1.pri.cur_genomic.fna.gz ./genomes/GCA_004024945.1_UroGra_v1_BIUU_genomic.fna.gz ./genomes/GCA_026122425.1_SC2_V1_genomic.fna.gz --large -o /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast
+
+Version: 5.0.2, 0bb1dd1b
+
+System information:
+  OS: Linux-3.10.0-1160.24.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 2.7.15
+  CPUs number: 28
+
+Started: 2022-12-14 13:01:44
+
+Logging to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/quast.log
+NOTICE: Maximum number of threads is set to 7 (use --threads option to set it manually)
+
+CWD: /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast
+Main parameters: 
+  MODE: large, threads: 7, eukaryotic: true, minimum contig length: 3000, minimum alignment length: 500, \
+  ambiguity: one, threshold for extensive misassembly size: 7000
+
+Contigs:
+  Pre-processing...
+  1  /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/mSorAra1.pri.asm.20211103.fasta.gz ==> mSorAra1.pri.asm.20211103
+  2  /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/genomes/GCA_000181395.1_ASM18139v1_genomic.fna.gz ==> GCA_000181395.1_ASM18139v1_genomic
+  3  ./genomes/GCA_004027635.1_CroInd_v1_BIUU_genomic.fna.gz ==> GCA_004027635.1_CroInd_v1_BIUU_genomic
+  4  ./genomes/GCF_000181275.1_SorAra2.0_genomic.fna.gz ==> GCF_000181275.1_SorAra2.0_genomic
+  5  ./genomes/GCA_000296755.1_EriEur2.0_genomic.fna.gz ==> GCA_000296755.1_EriEur2.0_genomic
+  6  ./genomes/GCA_004363575.1_SolPar_v1_BIUU_genomic.fna.gz ==> GCA_004363575.1_SolPar_v1_BIUU_genomic
+  7  ./genomes/GCF_000260355.1_ConCri1.0_genomic.fna.gz ==> GCF_000260355.1_ConCri1.0_genomic
+  8  ./genomes/GCA_002901085.1_ASM290108v1_genomic.fna.gz ==> GCA_002901085.1_ASM290108v1_genomic
+  9  ./genomes/GCA_019455555.1_Gpyr_1.0_genomic.fna.gz ==> GCA_019455555.1_Gpyr_1.0_genomic
+  10 ./genomes/GCF_014898055.1_MPIMG_talOcc4_genomic.fna.gz ==> GCF_014898055.1_MPIMG_talOcc4_genomic
+  11 ./genomes/GCA_004024925.1_ScaAqu_v1_BIUU_genomic.fna.gz ==> GCA_004024925.1_ScaAqu_v1_BIUU_genomic
+  12 ./genomes/GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic.fna.gz ==> GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic
+  13 ./genomes/GCF_024139225.1_mSunEtr1.pri.cur_genomic.fna.gz ==> GCF_024139225.1_mSunEtr1.pri.cur_genomic
+  14 ./genomes/GCA_004024945.1_UroGra_v1_BIUU_genomic.fna.gz ==> GCA_004024945.1_UroGra_v1_BIUU_genomic
+  15 ./genomes/GCA_026122425.1_SC2_V1_genomic.fna.gz ==> GCA_026122425.1_SC2_V1_genomic
+
+2022-12-14 13:12:44
+Running Basic statistics processor...
+  Contig files: 
+    1  mSorAra1.pri.asm.20211103
+    2  GCA_000181395.1_ASM18139v1_genomic
+    3  GCA_004027635.1_CroInd_v1_BIUU_genomic
+    4  GCF_000181275.1_SorAra2.0_genomic
+    5  GCA_000296755.1_EriEur2.0_genomic
+    6  GCA_004363575.1_SolPar_v1_BIUU_genomic
+    7  GCF_000260355.1_ConCri1.0_genomic
+    8  GCA_002901085.1_ASM290108v1_genomic
+    9  GCA_019455555.1_Gpyr_1.0_genomic
+    10 GCF_014898055.1_MPIMG_talOcc4_genomic
+    11 GCA_004024925.1_ScaAqu_v1_BIUU_genomic
+    12 GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic
+    13 GCF_024139225.1_mSunEtr1.pri.cur_genomic
+    14 GCA_004024945.1_UroGra_v1_BIUU_genomic
+    15 GCA_026122425.1_SC2_V1_genomic
+  Calculating N50 and L50...
+    1  mSorAra1.pri.asm.20211103, N50 = 231235302, L50 = 4, Total length = 2459336321, GC % = 43.23, # N's per 100 kbp =  2392.21
+    2  GCA_000181395.1_ASM18139v1_genomic, N50 = 7153, L50 = 45685, Total length = 971098796, GC % = 41.13, # N's per 100 kbp =  0.00
+    3  GCA_004027635.1_CroInd_v1_BIUU_genomic, N50 = 12307, L50 = 40587, Total length = 1837639356, GC % = 38.76, # N's per 100 kbp =  28.66
+    4  GCF_000181275.1_SorAra2.0_genomic, N50 = 22794405, L50 = 36, Total length = 2410424072, GC % = 42.91, # N's per 100 kbp =  9584.55
+    5  GCA_000296755.1_EriEur2.0_genomic, N50 = 3267260, L50 = 248, Total length = 2711841657, GC % = 41.53, # N's per 100 kbp =  14104.85
+    6  GCA_004363575.1_SolPar_v1_BIUU_genomic, N50 = 425252, L50 = 1231, Total length = 2051806763, GC % = 39.87, # N's per 100 kbp =  25.28
+    7  GCF_000260355.1_ConCri1.0_genomic, N50 = 55520359, L50 = 13, Total length = 1767713640, GC % = 41.54, # N's per 100 kbp =  4923.26
+    8  GCA_002901085.1_ASM290108v1_genomic, N50 = 111636, L50 = 5281, Total length = 2038902213, GC % = 39.87, # N's per 100 kbp =  13.07
+    9  GCA_019455555.1_Gpyr_1.0_genomic, N50 = 8555737, L50 = 65, Total length = 1819516938, GC % = 41.65, # N's per 100 kbp =  1495.92
+    10 GCF_014898055.1_MPIMG_talOcc4_genomic, N50 = 119794413, L50 = 8, Total length = 2097278780, GC % = 41.91, # N's per 100 kbp =  17.36
+    11 GCA_004024925.1_ScaAqu_v1_BIUU_genomic, N50 = 106858, L50 = 5184, Total length = 1867122067, GC % = 41.64, # N's per 100 kbp =  38.77
+    12 GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic, N50 = 112495, L50 = 5192, Total length = 2191539156, GC % = 42.79, # N's per 100 kbp =  0.00
+    13 GCF_024139225.1_mSunEtr1.pri.cur_genomic, N50 = 131952995, L50 = 8, Total length = 2471658457, GC % = 39.81, # N's per 100 kbp =  430.64
+    14 GCA_004024945.1_UroGra_v1_BIUU_genomic, N50 = 67231, L50 = 7477, Total length = 1839970050, GC % = 39.99, # N's per 100 kbp =  44.83
+    15 GCA_026122425.1_SC2_V1_genomic, N50 = 2625934, L50 = 209, Total length = 2283226199, GC % = 41.93, # N's per 100 kbp =  5404.91
+  Drawing Nx plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GC_content_plot.pdf
+  Drawing mSorAra1.pri.asm.20211103 GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/mSorAra1.pri.asm.20211103_GC_content_plot.pdf
+  Drawing GCA_000181395.1_ASM18139v1_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_000181395.1_ASM18139v1_genomic_GC_content_plot.pdf
+  Drawing GCA_004027635.1_CroInd_v1_BIUU_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004027635.1_CroInd_v1_BIUU_genomic_GC_content_plot.pdf
+  Drawing GCF_000181275.1_SorAra2.0_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_000181275.1_SorAra2.0_genomic_GC_content_plot.pdf
+  Drawing GCA_000296755.1_EriEur2.0_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_000296755.1_EriEur2.0_genomic_GC_content_plot.pdf
+  Drawing GCA_004363575.1_SolPar_v1_BIUU_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004363575.1_SolPar_v1_BIUU_genomic_GC_content_plot.pdf
+  Drawing GCF_000260355.1_ConCri1.0_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_000260355.1_ConCri1.0_genomic_GC_content_plot.pdf
+  Drawing GCA_002901085.1_ASM290108v1_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_002901085.1_ASM290108v1_genomic_GC_content_plot.pdf
+  Drawing GCA_019455555.1_Gpyr_1.0_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_019455555.1_Gpyr_1.0_genomic_GC_content_plot.pdf
+  Drawing GCF_014898055.1_MPIMG_talOcc4_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_014898055.1_MPIMG_talOcc4_genomic_GC_content_plot.pdf
+  Drawing GCA_004024925.1_ScaAqu_v1_BIUU_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004024925.1_ScaAqu_v1_BIUU_genomic_GC_content_plot.pdf
+  Drawing GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic_GC_content_plot.pdf
+  Drawing GCF_024139225.1_mSunEtr1.pri.cur_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_024139225.1_mSunEtr1.pri.cur_genomic_GC_content_plot.pdf
+  Drawing GCA_004024945.1_UroGra_v1_BIUU_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004024945.1_UroGra_v1_BIUU_genomic_GC_content_plot.pdf
+  Drawing GCA_026122425.1_SC2_V1_genomic GC content plot...
+    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_026122425.1_SC2_V1_genomic_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-12-14 13:37:51
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-12-14 13:44:01
+RESULTS:
+  Text versions of total report are saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/report.html
+  PDF version (tables and plots) is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/report.pdf
+  Icarus (contig browser) is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/icarus.html
+  Log is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/quast.log
+
+Finished: 2022-12-14 13:44:01
+Elapsed time: 0:42:17.089719
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

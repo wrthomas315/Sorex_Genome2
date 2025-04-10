@@ -1,0 +1,17 @@
+# BUSCO version is: 5.2.2 
+# The lineage dataset is: mammalia_odb10 (Creation date: 2021-02-19, number of genomes: 24, number of BUSCOs: 9226)
+# Summarized benchmarking in BUSCO notation for file /work/tlama_umass_edu/project_shrew_genome/data/genomes/hg38/trackData/musNigREDO/toga/bill_file_manip/musNigREDO_LongestTransscript.fasta
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:98.6%[S:97.6%,D:1.0%],F:0.6%,M:0.8%,n:9226	   
+	9098	Complete BUSCOs (C)			   
+	9009	Complete and single-copy BUSCOs (S)	   
+	89	Complete and duplicated BUSCOs (D)	   
+	54	Fragmented BUSCOs (F)			   
+	74	Missing BUSCOs (M)			   
+	9226	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.1

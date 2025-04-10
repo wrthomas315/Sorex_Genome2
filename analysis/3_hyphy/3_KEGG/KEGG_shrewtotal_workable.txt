@@ -1,0 +1,9 @@
+Term	Count	PValue	Category
+Complement and coagulation cascades	9	0.0015831842762065293	KEGG_PATHWAY
+Morphine addiction	8	0.008745950201837775	KEGG_PATHWAY
+Fanconi anemia pathway	6	0.012160829490907823	KEGG_PATHWAY
+Hematopoietic cell lineage	8	0.013556378560417796	KEGG_PATHWAY
+Primary immunodeficiency	5	0.01578154869650194	KEGG_PATHWAY
+Inflammatory bowel disease	6	0.02535848620143104	KEGG_PATHWAY
+Bile secretion	7	0.02665136583819471	KEGG_PATHWAY
+Ovarian steroidogenesis	5	0.041360417415278315	KEGG_PATHWAY

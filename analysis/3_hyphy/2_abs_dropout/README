@@ -1,0 +1,2 @@
+cat output.txt | grep -v "sunc" | grep -v "sorex" | grep -v "etrusc" | grep -v "putorius" > output_nofore.txt
+cat output_nofore.txt | grep -v "Node" > output_noforenode.txt

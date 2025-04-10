@@ -1,0 +1,2 @@
+less noFSENST00000245479.macse.aligned.fa.taper.aa | grep "sor" -A12 > sor_taper_SOX9.aa
+

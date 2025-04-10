@@ -1,0 +1,26 @@
+# path of a net files 
+>netdir
+/gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/deschrambler/DESCHRAMBLER/shrew_wEur/chainNet
+
+# path of a chain files 
+>chaindir
+/gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/deschrambler/DESCHRAMBLER/shrew_wEur/chainNet
+
+# species-name tag1 tag2
+# tag1 (0: ref-species, 1: descendents, 2: outgroup)
+# tag2 (1: chromosome assembly, 0: others)
+# Warning for tag2: Use the value 1 only when a chromosome name starts with "chr". 
+>species
+sorAra 0 0
+#sunEtr 1 0
+#galPyr 1 0
+talOcc 1 0
+#conCri 1 0
+#eriEur 1 0
+#phyDis 2 0
+#rhiFer 2 0
+
+# block resolution (bp): DO NOT CHANGE
+>resolution
+1000000
+

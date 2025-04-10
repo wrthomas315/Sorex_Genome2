@@ -1,0 +1,4 @@
+start_position	end_position	domain	species
+1	103	NO	sorex_araneus
+104	178	HMG	sorex_araneus
+179	542	NO	sorex_araneus

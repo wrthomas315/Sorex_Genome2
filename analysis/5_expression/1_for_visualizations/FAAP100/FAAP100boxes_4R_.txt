@@ -1,0 +1,3 @@
+start_position	end_position	domain	species	mask
+1	430	NO	sorex_araneus	No
+431	881	FANCAA	sorex_araneus	No	

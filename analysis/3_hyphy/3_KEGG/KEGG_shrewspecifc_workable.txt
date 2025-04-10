@@ -1,0 +1,6 @@
+Term	Count	PValue	Category
+Fanconi anemia pathway	4	0.010144734067127974	KEGG_PATHWAY
+Primary immunodeficiency	3	0.039665023124119535	KEGG_PATHWAY
+Th1 and Th2 cell differentiation	4	0.041097662277827886	KEGG_PATHWAY
+Hematopoietic cell lineage	4	0.049282556258414545	KEGG_PATHWAY
+Fat digestion and absorption	3	0.04961989843851662	KEGG_PATHWAY

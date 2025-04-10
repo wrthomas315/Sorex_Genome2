@@ -1,0 +1,8 @@
+#species	num
+sunEtr	215
+galPyr	93
+talOcc	173
+conCri	125
+eriEur	216
+phyDis	197
+rhiFer	161
