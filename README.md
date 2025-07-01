@@ -95,7 +95,7 @@ bash 12_absrel.sh
 ```
 Convert the output from jsons
 ```
-bash 13
+bash 13_absrel_output_converter.sh
 ```
 And then run in R to test for significance
 ```
