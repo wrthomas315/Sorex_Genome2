@@ -1,132 +1,142 @@
-/gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/quast-5.0.2/quast.py /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/mSorAra1.pri.asm.20211103.fasta.gz /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/genomes/GCA_000181395.1_ASM18139v1_genomic.fna.gz ./genomes/GCA_004027635.1_CroInd_v1_BIUU_genomic.fna.gz ./genomes/GCF_000181275.1_SorAra2.0_genomic.fna.gz ./genomes/GCA_000296755.1_EriEur2.0_genomic.fna.gz ./genomes/GCA_004363575.1_SolPar_v1_BIUU_genomic.fna.gz ./genomes/GCF_000260355.1_ConCri1.0_genomic.fna.gz ./genomes/GCA_002901085.1_ASM290108v1_genomic.fna.gz ./genomes/GCA_019455555.1_Gpyr_1.0_genomic.fna.gz ./genomes/GCF_014898055.1_MPIMG_talOcc4_genomic.fna.gz ./genomes/GCA_004024925.1_ScaAqu_v1_BIUU_genomic.fna.gz ./genomes/GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic.fna.gz ./genomes/GCF_024139225.1_mSunEtr1.pri.cur_genomic.fna.gz ./genomes/GCA_004024945.1_UroGra_v1_BIUU_genomic.fna.gz ./genomes/GCA_026122425.1_SC2_V1_genomic.fna.gz --large -o /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast
+/project/tlama_umass_edu/bin/anaconda3/envs/quast/bin/quast ./genomes/Erinaceus_europaeus_Sanger.fna.gz ./genomes/Erinaceus_europaeus_Broad2.fna.gz ./genomes/Erinaceus_europaeus_Broad1.fna.gz ./genomes/Sorex_araneus_VGP.fna.gz ./genomes/Suncus_etruscus_VGP.fna.gz ./genomes/Solenodon_paradoxus_Broad.fna.gz ./genomes/Talpa_occidentalis_MPI.fna.gz ./genomes/Galemys_pyrenaicus_IBE.fna.gz ./genomes/Condylura_cristata_Broad.fna.gz ./genomes/Uropsilus_gracilis_Broad.fna.gz ./genomes/Sorex_cinereus_Trent.fna.gz ./genomes/Cryptotis_parvus_NIH.fna.gz ./genomes/Scalopus_aquaticus_Broad.fna.gz ./genomes/Crocidura_indochinensis_Broad.fna.gz ./genomes/Sorex_palustris_Iridian.fna.gz ./genomes/Solenodon_paradoxus_woodi_UPR.fna.gz ./genomes/Sorex_araneus_Broad.fna.gz --large -o ./eulip_quast2
 
-Version: 5.0.2, 0bb1dd1b
+Version: 5.0.2
 
 System information:
-  OS: Linux-3.10.0-1160.24.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
-  Python version: 2.7.15
-  CPUs number: 28
+  OS: Linux-5.4.0-150-generic-x86_64-with-debian-bullseye-sid (linux_64)
+  Python version: 3.6.13
+  CPUs number: 56
 
-Started: 2022-12-14 13:01:44
+Started: 2023-06-20 14:08:55
 
-Logging to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/quast.log
-NOTICE: Maximum number of threads is set to 7 (use --threads option to set it manually)
+Logging to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/quast.log
+NOTICE: Maximum number of threads is set to 14 (use --threads option to set it manually)
 
-CWD: /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast
+CWD: /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast
 Main parameters: 
-  MODE: large, threads: 7, eukaryotic: true, minimum contig length: 3000, minimum alignment length: 500, \
+  MODE: large, threads: 14, eukaryotic: true, minimum contig length: 3000, minimum alignment length: 500, \
   ambiguity: one, threshold for extensive misassembly size: 7000
 
 Contigs:
   Pre-processing...
-  1  /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/mSorAra1.pri.asm.20211103.fasta.gz ==> mSorAra1.pri.asm.20211103
-  2  /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/genomes/GCA_000181395.1_ASM18139v1_genomic.fna.gz ==> GCA_000181395.1_ASM18139v1_genomic
-  3  ./genomes/GCA_004027635.1_CroInd_v1_BIUU_genomic.fna.gz ==> GCA_004027635.1_CroInd_v1_BIUU_genomic
-  4  ./genomes/GCF_000181275.1_SorAra2.0_genomic.fna.gz ==> GCF_000181275.1_SorAra2.0_genomic
-  5  ./genomes/GCA_000296755.1_EriEur2.0_genomic.fna.gz ==> GCA_000296755.1_EriEur2.0_genomic
-  6  ./genomes/GCA_004363575.1_SolPar_v1_BIUU_genomic.fna.gz ==> GCA_004363575.1_SolPar_v1_BIUU_genomic
-  7  ./genomes/GCF_000260355.1_ConCri1.0_genomic.fna.gz ==> GCF_000260355.1_ConCri1.0_genomic
-  8  ./genomes/GCA_002901085.1_ASM290108v1_genomic.fna.gz ==> GCA_002901085.1_ASM290108v1_genomic
-  9  ./genomes/GCA_019455555.1_Gpyr_1.0_genomic.fna.gz ==> GCA_019455555.1_Gpyr_1.0_genomic
-  10 ./genomes/GCF_014898055.1_MPIMG_talOcc4_genomic.fna.gz ==> GCF_014898055.1_MPIMG_talOcc4_genomic
-  11 ./genomes/GCA_004024925.1_ScaAqu_v1_BIUU_genomic.fna.gz ==> GCA_004024925.1_ScaAqu_v1_BIUU_genomic
-  12 ./genomes/GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic.fna.gz ==> GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic
-  13 ./genomes/GCF_024139225.1_mSunEtr1.pri.cur_genomic.fna.gz ==> GCF_024139225.1_mSunEtr1.pri.cur_genomic
-  14 ./genomes/GCA_004024945.1_UroGra_v1_BIUU_genomic.fna.gz ==> GCA_004024945.1_UroGra_v1_BIUU_genomic
-  15 ./genomes/GCA_026122425.1_SC2_V1_genomic.fna.gz ==> GCA_026122425.1_SC2_V1_genomic
+  1  ./genomes/Erinaceus_europaeus_Sanger.fna.gz ==> Erinaceus_europaeus_Sanger
+  2  ./genomes/Erinaceus_europaeus_Broad2.fna.gz ==> Erinaceus_europaeus_Broad2
+  3  ./genomes/Erinaceus_europaeus_Broad1.fna.gz ==> Erinaceus_europaeus_Broad1
+  4  ./genomes/Sorex_araneus_VGP.fna.gz ==> Sorex_araneus_VGP
+  5  ./genomes/Suncus_etruscus_VGP.fna.gz ==> Suncus_etruscus_VGP
+  6  ./genomes/Solenodon_paradoxus_Broad.fna.gz ==> Solenodon_paradoxus_Broad
+  7  ./genomes/Talpa_occidentalis_MPI.fna.gz ==> Talpa_occidentalis_MPI
+  8  ./genomes/Galemys_pyrenaicus_IBE.fna.gz ==> Galemys_pyrenaicus_IBE
+  9  ./genomes/Condylura_cristata_Broad.fna.gz ==> Condylura_cristata_Broad
+  10 ./genomes/Uropsilus_gracilis_Broad.fna.gz ==> Uropsilus_gracilis_Broad
+  11 ./genomes/Sorex_cinereus_Trent.fna.gz ==> Sorex_cinereus_Trent
+  12 ./genomes/Cryptotis_parvus_NIH.fna.gz ==> Cryptotis_parvus_NIH
+  13 ./genomes/Scalopus_aquaticus_Broad.fna.gz ==> Scalopus_aquaticus_Broad
+  14 ./genomes/Crocidura_indochinensis_Broad.fna.gz ==> Crocidura_indochinensis_Broad
+  15 ./genomes/Sorex_palustris_Iridian.fna.gz ==> Sorex_palustris_Iridian
+  16 ./genomes/Solenodon_paradoxus_woodi_UPR.fna.gz ==> Solenodon_paradoxus_woodi_UPR
+  17 ./genomes/Sorex_araneus_Broad.fna.gz ==> Sorex_araneus_Broad
 
-2022-12-14 13:12:44
+2023-06-20 14:43:45
 Running Basic statistics processor...
   Contig files: 
-    1  mSorAra1.pri.asm.20211103
-    2  GCA_000181395.1_ASM18139v1_genomic
-    3  GCA_004027635.1_CroInd_v1_BIUU_genomic
-    4  GCF_000181275.1_SorAra2.0_genomic
-    5  GCA_000296755.1_EriEur2.0_genomic
-    6  GCA_004363575.1_SolPar_v1_BIUU_genomic
-    7  GCF_000260355.1_ConCri1.0_genomic
-    8  GCA_002901085.1_ASM290108v1_genomic
-    9  GCA_019455555.1_Gpyr_1.0_genomic
-    10 GCF_014898055.1_MPIMG_talOcc4_genomic
-    11 GCA_004024925.1_ScaAqu_v1_BIUU_genomic
-    12 GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic
-    13 GCF_024139225.1_mSunEtr1.pri.cur_genomic
-    14 GCA_004024945.1_UroGra_v1_BIUU_genomic
-    15 GCA_026122425.1_SC2_V1_genomic
+    1  Erinaceus_europaeus_Sanger
+    2  Erinaceus_europaeus_Broad2
+    3  Erinaceus_europaeus_Broad1
+    4  Sorex_araneus_VGP
+    5  Suncus_etruscus_VGP
+    6  Solenodon_paradoxus_Broad
+    7  Talpa_occidentalis_MPI
+    8  Galemys_pyrenaicus_IBE
+    9  Condylura_cristata_Broad
+    10 Uropsilus_gracilis_Broad
+    11 Sorex_cinereus_Trent
+    12 Cryptotis_parvus_NIH
+    13 Scalopus_aquaticus_Broad
+    14 Crocidura_indochinensis_Broad
+    15 Sorex_palustris_Iridian
+    16 Solenodon_paradoxus_woodi_UPR
+    17 Sorex_araneus_Broad
   Calculating N50 and L50...
-    1  mSorAra1.pri.asm.20211103, N50 = 231235302, L50 = 4, Total length = 2459336321, GC % = 43.23, # N's per 100 kbp =  2392.21
-    2  GCA_000181395.1_ASM18139v1_genomic, N50 = 7153, L50 = 45685, Total length = 971098796, GC % = 41.13, # N's per 100 kbp =  0.00
-    3  GCA_004027635.1_CroInd_v1_BIUU_genomic, N50 = 12307, L50 = 40587, Total length = 1837639356, GC % = 38.76, # N's per 100 kbp =  28.66
-    4  GCF_000181275.1_SorAra2.0_genomic, N50 = 22794405, L50 = 36, Total length = 2410424072, GC % = 42.91, # N's per 100 kbp =  9584.55
-    5  GCA_000296755.1_EriEur2.0_genomic, N50 = 3267260, L50 = 248, Total length = 2711841657, GC % = 41.53, # N's per 100 kbp =  14104.85
-    6  GCA_004363575.1_SolPar_v1_BIUU_genomic, N50 = 425252, L50 = 1231, Total length = 2051806763, GC % = 39.87, # N's per 100 kbp =  25.28
-    7  GCF_000260355.1_ConCri1.0_genomic, N50 = 55520359, L50 = 13, Total length = 1767713640, GC % = 41.54, # N's per 100 kbp =  4923.26
-    8  GCA_002901085.1_ASM290108v1_genomic, N50 = 111636, L50 = 5281, Total length = 2038902213, GC % = 39.87, # N's per 100 kbp =  13.07
-    9  GCA_019455555.1_Gpyr_1.0_genomic, N50 = 8555737, L50 = 65, Total length = 1819516938, GC % = 41.65, # N's per 100 kbp =  1495.92
-    10 GCF_014898055.1_MPIMG_talOcc4_genomic, N50 = 119794413, L50 = 8, Total length = 2097278780, GC % = 41.91, # N's per 100 kbp =  17.36
-    11 GCA_004024925.1_ScaAqu_v1_BIUU_genomic, N50 = 106858, L50 = 5184, Total length = 1867122067, GC % = 41.64, # N's per 100 kbp =  38.77
-    12 GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic, N50 = 112495, L50 = 5192, Total length = 2191539156, GC % = 42.79, # N's per 100 kbp =  0.00
-    13 GCF_024139225.1_mSunEtr1.pri.cur_genomic, N50 = 131952995, L50 = 8, Total length = 2471658457, GC % = 39.81, # N's per 100 kbp =  430.64
-    14 GCA_004024945.1_UroGra_v1_BIUU_genomic, N50 = 67231, L50 = 7477, Total length = 1839970050, GC % = 39.99, # N's per 100 kbp =  44.83
-    15 GCA_026122425.1_SC2_V1_genomic, N50 = 2625934, L50 = 209, Total length = 2283226199, GC % = 41.93, # N's per 100 kbp =  5404.91
+    1  Erinaceus_europaeus_Sanger, N50 = 126757761, L50 = 9, Total length = 2720687264, GC % = 42.00, # N's per 100 kbp =  27.64
+    2  Erinaceus_europaeus_Broad2, N50 = 3267260, L50 = 248, Total length = 2711841657, GC % = 41.53, # N's per 100 kbp =  14104.85
+    3  Erinaceus_europaeus_Broad1, N50 = 7153, L50 = 45685, Total length = 971098796, GC % = 41.13, # N's per 100 kbp =  0.00
+    4  Sorex_araneus_VGP, N50 = 374364821, L50 = 3, Total length = 2406010873, GC % = 43.24, # N's per 100 kbp =  537.98
+    5  Suncus_etruscus_VGP, N50 = 131952995, L50 = 8, Total length = 2471675439, GC % = 39.81, # N's per 100 kbp =  430.64
+    6  Solenodon_paradoxus_Broad, N50 = 425252, L50 = 1231, Total length = 2051806763, GC % = 39.87, # N's per 100 kbp =  25.28
+    7  Talpa_occidentalis_MPI, N50 = 119794413, L50 = 8, Total length = 2080328243, GC % = 41.89, # N's per 100 kbp =  109.66
+    8  Galemys_pyrenaicus_IBE, N50 = 8555737, L50 = 65, Total length = 1819516938, GC % = 41.65, # N's per 100 kbp =  1495.92
+    9  Condylura_cristata_Broad, N50 = 55520359, L50 = 13, Total length = 1767713640, GC % = 41.54, # N's per 100 kbp =  4923.26
+    10 Uropsilus_gracilis_Broad, N50 = 67231, L50 = 7477, Total length = 1839970050, GC % = 39.99, # N's per 100 kbp =  44.83
+    11 Sorex_cinereus_Trent, N50 = 42400022, L50 = 23, Total length = 2873555620, GC % = 43.43, # N's per 100 kbp =  0.00
+    12 Cryptotis_parvus_NIH, N50 = 112495, L50 = 5192, Total length = 2191539156, GC % = 42.79, # N's per 100 kbp =  0.00
+    13 Scalopus_aquaticus_Broad, N50 = 106858, L50 = 5184, Total length = 1867122067, GC % = 41.64, # N's per 100 kbp =  38.77
+    14 Crocidura_indochinensis_Broad, N50 = 12307, L50 = 40587, Total length = 1837639356, GC % = 38.76, # N's per 100 kbp =  28.66
+    15 Sorex_palustris_Iridian, N50 = 33764336, L50 = 16, Total length = 1761847645, GC % = 43.73, # N's per 100 kbp =  13292.72
+    16 Solenodon_paradoxus_woodi_UPR, N50 = 111636, L50 = 5281, Total length = 2038902213, GC % = 39.87, # N's per 100 kbp =  13.07
+    17 Sorex_araneus_Broad, N50 = 22794405, L50 = 36, Total length = 2410424072, GC % = 42.91, # N's per 100 kbp =  9584.55
   Drawing Nx plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/Nx_plot.pdf
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Nx_plot.pdf
   Drawing cumulative plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/cumulative_plot.pdf
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GC_content_plot.pdf
-  Drawing mSorAra1.pri.asm.20211103 GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/mSorAra1.pri.asm.20211103_GC_content_plot.pdf
-  Drawing GCA_000181395.1_ASM18139v1_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_000181395.1_ASM18139v1_genomic_GC_content_plot.pdf
-  Drawing GCA_004027635.1_CroInd_v1_BIUU_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004027635.1_CroInd_v1_BIUU_genomic_GC_content_plot.pdf
-  Drawing GCF_000181275.1_SorAra2.0_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_000181275.1_SorAra2.0_genomic_GC_content_plot.pdf
-  Drawing GCA_000296755.1_EriEur2.0_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_000296755.1_EriEur2.0_genomic_GC_content_plot.pdf
-  Drawing GCA_004363575.1_SolPar_v1_BIUU_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004363575.1_SolPar_v1_BIUU_genomic_GC_content_plot.pdf
-  Drawing GCF_000260355.1_ConCri1.0_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_000260355.1_ConCri1.0_genomic_GC_content_plot.pdf
-  Drawing GCA_002901085.1_ASM290108v1_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_002901085.1_ASM290108v1_genomic_GC_content_plot.pdf
-  Drawing GCA_019455555.1_Gpyr_1.0_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_019455555.1_Gpyr_1.0_genomic_GC_content_plot.pdf
-  Drawing GCF_014898055.1_MPIMG_talOcc4_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_014898055.1_MPIMG_talOcc4_genomic_GC_content_plot.pdf
-  Drawing GCA_004024925.1_ScaAqu_v1_BIUU_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004024925.1_ScaAqu_v1_BIUU_genomic_GC_content_plot.pdf
-  Drawing GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_021461705.1_Cryptotis_parva_assembly_1.0_genomic_GC_content_plot.pdf
-  Drawing GCF_024139225.1_mSunEtr1.pri.cur_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCF_024139225.1_mSunEtr1.pri.cur_genomic_GC_content_plot.pdf
-  Drawing GCA_004024945.1_UroGra_v1_BIUU_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_004024945.1_UroGra_v1_BIUU_genomic_GC_content_plot.pdf
-  Drawing GCA_026122425.1_SC2_V1_genomic GC content plot...
-    saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/basic_stats/GCA_026122425.1_SC2_V1_genomic_GC_content_plot.pdf
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/GC_content_plot.pdf
+  Drawing Erinaceus_europaeus_Sanger GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Erinaceus_europaeus_Sanger_GC_content_plot.pdf
+  Drawing Erinaceus_europaeus_Broad2 GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Erinaceus_europaeus_Broad2_GC_content_plot.pdf
+  Drawing Erinaceus_europaeus_Broad1 GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Erinaceus_europaeus_Broad1_GC_content_plot.pdf
+  Drawing Sorex_araneus_VGP GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Sorex_araneus_VGP_GC_content_plot.pdf
+  Drawing Suncus_etruscus_VGP GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Suncus_etruscus_VGP_GC_content_plot.pdf
+  Drawing Solenodon_paradoxus_Broad GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Solenodon_paradoxus_Broad_GC_content_plot.pdf
+  Drawing Talpa_occidentalis_MPI GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Talpa_occidentalis_MPI_GC_content_plot.pdf
+  Drawing Galemys_pyrenaicus_IBE GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Galemys_pyrenaicus_IBE_GC_content_plot.pdf
+  Drawing Condylura_cristata_Broad GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Condylura_cristata_Broad_GC_content_plot.pdf
+  Drawing Uropsilus_gracilis_Broad GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Uropsilus_gracilis_Broad_GC_content_plot.pdf
+  Drawing Sorex_cinereus_Trent GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Sorex_cinereus_Trent_GC_content_plot.pdf
+  Drawing Cryptotis_parvus_NIH GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Cryptotis_parvus_NIH_GC_content_plot.pdf
+  Drawing Scalopus_aquaticus_Broad GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Scalopus_aquaticus_Broad_GC_content_plot.pdf
+  Drawing Crocidura_indochinensis_Broad GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Crocidura_indochinensis_Broad_GC_content_plot.pdf
+  Drawing Sorex_palustris_Iridian GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Sorex_palustris_Iridian_GC_content_plot.pdf
+  Drawing Solenodon_paradoxus_woodi_UPR GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Solenodon_paradoxus_woodi_UPR_GC_content_plot.pdf
+  Drawing Sorex_araneus_Broad GC content plot...
+    saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/basic_stats/Sorex_araneus_Broad_GC_content_plot.pdf
 Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2022-12-14 13:37:51
+2023-06-20 15:07:09
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2022-12-14 13:44:01
+2023-06-20 15:12:07
 RESULTS:
-  Text versions of total report are saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/report.html
-  PDF version (tables and plots) is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/report.pdf
-  Icarus (contig browser) is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/icarus.html
-  Log is saved to /gpfs/scratch/withomas/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast/quast.log
+  Text versions of total report are saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/report.html
+  PDF version (tables and plots) is saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/report.pdf
+  Icarus (contig browser) is saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/icarus.html
+  Log is saved to /work/tlama_umass_edu/project_shrew_genome/data/genomes/sorAra/quast/eulip_quast2/quast.log
 
-Finished: 2022-12-14 13:44:01
-Elapsed time: 0:42:17.089719
+Finished: 2023-06-20 15:12:10
+Elapsed time: 1:03:15.210297
 NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
